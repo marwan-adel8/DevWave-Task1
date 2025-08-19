@@ -784,11 +784,7 @@ body {
   -webkit-transform: rotate(-45deg);
   margin-left: 0.15rem;
 }
-@media (max-width: 400px) {
-  body {
-    padding: 1rem;
-  }
-}
+
 @media (max-width: 768px) {
   .solar-kits-container {
     grid-template-columns: 1fr;
@@ -854,13 +850,13 @@ body {
   inset: 0;
   z-index: 0;
 }
-h2 {
+.replacement-head {
   font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: white;
 }
-p {
+.replacement-text {
   font-size: 1.125rem;
   max-width: 700px;
   margin-left: auto;
@@ -884,6 +880,19 @@ p {
     padding: 2rem 1.5rem;
     border-radius: 12px;
   }
+}
+@media (max-width: 480px){
+#documentation{
+height: 450px;
+}
+.replacement-head{
+    font-size: 30px;
+
+}
+.replacement-text{
+  font-size: 15px;
+}
+
 }
 /*Energy section*/
 
